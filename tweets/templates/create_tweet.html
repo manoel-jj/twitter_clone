@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Tweet</title>
+</head>
+<body>
+    <h1>Create a new Tweet</h1>
+    <form method="post">
+        {% csrf_token %}
+        <textarea name="content" rows="3" cols="40" placeholder="What's happening?"></textarea>
+        <button type="submit">Tweet</button>
+    </form>
+</body>
+</html>
