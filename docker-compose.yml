@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: manoeldev_clone_twitter
+      POSTGRES_USER: manoeldev
+      POSTGRES_PASSWORD: manoeldev575167
+    ports:
+      - "5434:5432"
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgres://manoeldev:manoeldev575167@db:5432/manoeldev_clone_twitter

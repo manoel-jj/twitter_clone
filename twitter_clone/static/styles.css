@@ -1,0 +1,164 @@
+/* styles.css */
+
+/* Body Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar-custom {
+    background-color: #343a40;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #d3d3d3;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Forms */
+.form-control-custom {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+/* Card Styling */
+.card-custom {
+    border: 1px solid #e3e3e3;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+}
+
+.card-custom .card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Footer Styling */
+.footer-custom {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Custom Margin and Padding */
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+/* Typography */
+.h1-custom {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.h2-custom {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.h3-custom {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.p-custom {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Alerts */
+.alert-custom {
+    border-radius: 0.25rem;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Tables */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-custom th, .table-custom td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+}
+
+.table-custom th {
+    background-color: #007bff;
+    color: white;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* styles.css */
+
+/* Estilizando o formulário de cadastro do Django Allauth */
+#signup_form {
+    /* Estilos gerais para o formulário */
+    max-width: 400px;
+    margin: auto;
+}
+
+#signup_form input[type=text],
+#signup_form input[type=email],
+#signup_form input[type=password] {
+    /* Estilos para campos de entrada */
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#signup_form button[type=submit] {
+    /* Estilos para o botão de submit */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos adicionais conforme necessário */
