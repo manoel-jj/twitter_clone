@@ -59,9 +59,9 @@ WSGI_APPLICATION = "twitter_clone.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_db_name',
-        'USER': 'django_db_user',
-        'PASSWORD': 'password',
+        'NAME': 'manoeldev_clone_twitter',
+        'USER': 'manoeldev575167',
+        'PASSWORD': 'manoeldev.mysql.pythonanywhere-services.com',
         'HOST': 'localhost',
         'PORT': '3306',
     }
